@@ -1,5 +1,7 @@
 import { defineUserConfig } from "vuepress";
+import { inject } from "@vercel/analytics"
 
+inject();
 
 
 import theme from "./theme.js";
