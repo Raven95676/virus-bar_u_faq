@@ -1,5 +1,5 @@
 ---
-title: 计算机
+title: 电脑
 icon: fa-regular fa-folder
 index: false
 ---

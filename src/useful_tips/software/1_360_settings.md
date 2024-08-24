@@ -35,48 +35,48 @@ order: 1
 
 进入设置：
 
-![进入设置](https://pic.imgdb.cn/item/66b70d7cd9c307b7e98dc434.png)
+![进入设置](https://ooo.0x0.ooo/2024/08/24/OtEMJp.png)
 
 首先，关掉可以一键关闭的部分。
 
-![一键关闭的部分](https://pic.imgdb.cn/item/66c95d76d9c307b7e9bf3346.png)
+![一键关闭的部分](https://ooo.0x0.ooo/2024/08/24/OtLIHt.png)
 
-![关掉](https://pic.imgdb.cn/item/66c95dc7d9c307b7e9bf7cdb.png)
+![关掉](https://ooo.0x0.ooo/2024/08/24/OtEqZv.png)
 
 另一个同理
 
 然后关掉木马查杀页面的广告。
 
-![木马查杀页面广告](https://pic.imgdb.cn/item/66c879c7d9c307b7e9894116.png)
+![木马查杀页面广告](https://ooo.0x0.ooo/2024/08/24/OtEy9a.png)
 
 关掉开机小助手广告。
 
-![开机小助手广告](https://pic.imgdb.cn/item/66c87a59d9c307b7e98b06a1.png)
+![开机小助手广告](https://ooo.0x0.ooo/2024/08/24/OtLu1X.png)
 
 关掉这两个没用的功能。
 
-![没用的功能](https://pic.imgdb.cn/item/66c95f22d9c307b7e9c0a86e.png)
+![没用的功能](https://ooo.0x0.ooo/2024/08/24/OtL3Xx.png)
 
 关掉AI办公图标创建
 
-![AI办公](https://pic.imgdb.cn/item/66c95f75d9c307b7e9c0f873.png)
+![AI办公](https://ooo.0x0.ooo/2024/08/24/OtLwxj.png)
 
 关掉这些没用的功能，并点击“去设置”
 
-![没用的功能](https://pic.imgdb.cn/item/66c960c3d9c307b7e9c23d46.png)
+![没用的功能](https://ooo.0x0.ooo/2024/08/24/OtLXMi.png)
 
-![没用的功能](https://pic.imgdb.cn/item/66c96005d9c307b7e9c17fc2.png)
+![没用的功能](https://ooo.0x0.ooo/2024/08/24/OtEmTS.png)
 
 确保这里是关闭状态。
 
-![360屏保](https://pic.imgdb.cn/item/66c96085d9c307b7e9c1fcc8.png)
+![360屏保](https://ooo.0x0.ooo/2024/08/24/OtEOlU.png)
 
 最后打开360软件管家，进入设置
 
-![软件管家进入设置](https://pic.imgdb.cn/item/66c87a8ad9c307b7e98b9906.png)
+![软件管家进入设置](https://ooo.0x0.ooo/2024/08/24/OtEoBY.png)
 
 关掉这两个推荐设置。
 
-![推荐设置](https://pic.imgdb.cn/item/66c87aead9c307b7e98ce2b3.png)
+![推荐设置](https://ooo.0x0.ooo/2024/08/24/OtEvPK.png)
 
 结束。

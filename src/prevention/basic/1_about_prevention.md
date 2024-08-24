@@ -30,13 +30,13 @@ order: 1
 
 某天，某人收到了一封主题为“Re：待处理发票”的邮件。ta没有安装任何杀毒软件，为了清净甚至利用工具删除了Windows Defender。出于好奇心，ta下载并打开了附件中的“PDF”
 
-![奇怪的附件](https://pic.imgdb.cn/item/66b708dfd9c307b7e988ffe0.png)
+![奇怪的附件](https://ooo.0x0.ooo/2024/08/24/OtL5nB.png)
 
 没有反应。某人顿时对这个“PDF”失去了兴趣。电脑中的一切都是那么的风平浪静，这个人认为ta的电脑没有任何问题。
 
 某天在开机后某人立刻打开了任务管理器，虽然占用不大，但是一个没有名字的进程吸引了ta的注意力。
 
-![奇怪的进程](https://pic.imgdb.cn/item/66b708ead9c307b7e9890be7.png)
+![奇怪的进程](https://ooo.0x0.ooo/2024/08/24/OtLT6K.png)
 
 这个进程不一会就消失了，电脑也没有什么别的问题。“不影响我打游戏”，ta想。
 
@@ -44,19 +44,19 @@ order: 1
 
 ta下载了卡巴斯基免费版。甚至还没开始全盘扫描，卡巴斯基免费版就开始报毒了。
 
-![报毒](https://pic.imgdb.cn/item/66b708fbd9c307b7e98922e7.png)
+![报毒](https://ooo.0x0.ooo/2024/08/24/OtLbmS.png)
 
 ta发现ta的电脑里面居然有这么多病毒。
 
-![扫描结果](https://pic.imgdb.cn/item/66b7090ad9c307b7e9893555.png)
+![扫描结果](https://ooo.0x0.ooo/2024/08/24/OtLWka.png)
 
 原来当时的“PDF”不是PDF,而是一条指令，用于执行远程命令。
 
-![属性信息](https://pic.imgdb.cn/item/66b70914d9c307b7e9894150.png)
+![属性信息](https://ooo.0x0.ooo/2024/08/24/OtLB4s.png)
 
 卡巴斯基免费版可以直接防御。
 
-![报告](https://pic.imgdb.cn/item/66b7091fd9c307b7e9894e7b.png)
+![报告](https://ooo.0x0.ooo/2024/08/24/OtLkYN.png)
 
 > **Trojan/MSIL.DCRat**
 >

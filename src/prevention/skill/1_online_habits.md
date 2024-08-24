@@ -66,11 +66,11 @@ order: 1
 
 首先，各位得认识UAC长什么样子：
 
-![Windows 11](https://pic.imgdb.cn/item/66b70a7dd9c307b7e98aaaf4.jpg){width="50%"}
+![Windows 11](https://ooo.0x0.ooo/2024/08/24/OtLJ1M.jpg){width="50%"}
 
-![Windows 7](https://pic.imgdb.cn/item/66b70a8fd9c307b7e98ab9b2.png){width="50%"}
+![Windows 7](https://ooo.0x0.ooo/2024/08/24/OtLHfF.png){width="50%"}
 
-![Windows 10](https://pic.imgdb.cn/item/66b70a9ad9c307b7e98ac3aa.jpg){width="50%"}
+![Windows 10](https://ooo.0x0.ooo/2024/08/24/OtLR81.jpg){width="50%"}
 
 > 用户帐户控制 (UAC) 是一项 Windows 安全功能，旨在保护操作系统免受未经授权的更改。 当对系统的更改需要管理员级权限时，UAC 会通知用户，从而让用户有机会批准或拒绝更改。 UAC 通过限制恶意代码拥有的以管理员权限执行的访问权限来提高 Windows 设备的安全性。 UAC 使用户能够就可能影响设备稳定性和安全性的操作做出明智的决策。
 >
@@ -99,9 +99,9 @@ order: 1
 4. 如图，然后点创建
 5. 双击右侧的Administrator，进入，把账户已禁用勾上
 
-![新用户创建页面](https://pic.imgdb.cn/item/66b70aacd9c307b7e98ad25d.jpg)
+![新用户创建页面](https://ooo.0x0.ooo/2024/08/24/OtLgSc.jpg)
 
-![禁用Administrator](https://pic.imgdb.cn/item/66b70ab5d9c307b7e98adbab.jpg)
+![禁用Administrator](https://ooo.0x0.ooo/2024/08/24/OtLPDG.jpg)
 
 > [!note]
 > 本节接受了firedoge的指正
@@ -112,7 +112,7 @@ order: 1
 
 首先，按Windows键+X键（或右键“开始”），点击终端管理员或者PowerShell（管理员）(具体显示哪个都没关系)
 
-![打开管理员权限终端](https://pic.imgdb.cn/item/66b70ac1d9c307b7e98ae64f.jpg)
+![打开管理员权限终端](https://ooo.0x0.ooo/2024/08/24/OtLDpD.jpg)
 
 之后依次执行下面三个命令（这三行命令的作用分别是：添加用户、设置新用户的用户组为管理员、禁用administrator）：
 
@@ -122,7 +122,7 @@ net localgroup administrators 用户名 /add
 net user administrator /active:no
 ```
 
-![命令执行效果](https://pic.imgdb.cn/item/66b70acbd9c307b7e98aef60.jpg)
+![命令执行效果](https://ooo.0x0.ooo/2024/08/24/OtLv5v.jpg)
 
 之后注销账户，或重启电脑，登录新的账户即可。
 
@@ -189,15 +189,15 @@ Windows系统谨慎使用闭源（未开放源代码）的小工具（谁知道�
 
 如果使用百度搜索引擎，官网会有“官方”标识。广告会有“广告”标识。
 
-![百度搜索引擎的结果](https://pic.imgdb.cn/item/66b70ae2d9c307b7e98b0513.png)
+![百度搜索引擎的结果](https://ooo.0x0.ooo/2024/08/24/OtLKYY.png)
 
 [uBlock Origin、uBlock Origin Lite完全模式](https://ublockorigin.com/)、[Adguard](https://adguard.com/zh_cn/welcome.html)可过滤掉很多虚假广告。
 
-![过滤后的结果](https://pic.imgdb.cn/item/66b70aefd9c307b7e98b13de.png)
+![过滤后的结果](https://ooo.0x0.ooo/2024/08/24/OtLyKq.png)
 
 此外，卡巴斯基等杀毒软件提供了校验网站安全性的功能。
 
-![校验网站安全性](https://pic.imgdb.cn/item/66c319d9d9c307b7e9f42b73.png)
+![校验网站安全性](https://ooo.0x0.ooo/2024/08/24/OtLmwr.png)
 
 ### 听不懂怎么办
 
@@ -211,7 +211,7 @@ Windows安装使用[火绒应用商店](https://www.huorong.cn/app_store.html)�
 
 取消勾选应用程序、网页可以避免一切来自wallpaper engine的病毒入侵
 
-![wallpaper engine设置](https://pic.imgdb.cn/item/66b70affd9c307b7e98b21de.jpg)
+![wallpaper engine设置](https://ooo.0x0.ooo/2024/08/24/OtL4kI.jpg)
 
 ## 避免使用浏览器储存密码
 

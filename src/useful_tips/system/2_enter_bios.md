@@ -18,6 +18,6 @@ order: 2
 >
 > 本转载已得到作者默许（保留来源）
 
-![表1](https://pic.imgdb.cn/item/66b70df2d9c307b7e98e4679.jpg)
+![表1](https://ooo.0x0.ooo/2024/08/24/OtEDut.jpg)
 
-![表2](https://pic.imgdb.cn/item/66b70df9d9c307b7e98e4cc0.jpg)
+![表2](https://ooo.0x0.ooo/2024/08/24/OtE4LX.jpg)

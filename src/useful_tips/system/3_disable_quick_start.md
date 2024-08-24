@@ -29,24 +29,24 @@ Windows 10&Windows 8.1：
 
 开始-Windows系统-控制面板
 
-![Winodws8.1](https://pic.imgdb.cn/item/66b70e4ad9c307b7e98e9b3f.jpg)
+![Winodws8.1](https://ooo.0x0.ooo/2024/08/24/OtEVNc.jpg)
 
-![Windows10](https://pic.imgdb.cn/item/66b70e50d9c307b7e98ea146.jpg)
+![Windows10](https://ooo.0x0.ooo/2024/08/24/OtEfIM.jpg)
 
 Windows 11：
 
 开始-所有程序-Windows工具-控制面板
 
-![Windows11](https://pic.imgdb.cn/item/66b70e56d9c307b7e98ea7d1.jpg)
+![Windows11](https://ooo.0x0.ooo/2024/08/24/OtEYEr.jpg)
 
 ### 第二步
 
 在控制面板的搜索框内输入“电源”，之后点击“更改电源按钮的功能”
 
-![电源选项](https://pic.imgdb.cn/item/66b70e67d9c307b7e98ebab7.png)
+![电源选项](https://ooo.0x0.ooo/2024/08/24/OtEsaq.png)
 
 ### 第三步
 
 点击“更改当前不可用设置”，并取消选中“启用快速启动（推荐）”
 
-![关闭快速启动](https://pic.imgdb.cn/item/66b70e72d9c307b7e98ec6b6.jpg)
+![关闭快速启动](https://ooo.0x0.ooo/2024/08/24/OtE9FG.jpg)

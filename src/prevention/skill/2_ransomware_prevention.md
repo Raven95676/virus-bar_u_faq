@@ -37,7 +37,7 @@ order: 2
 
 缺点：就像名字一样，默认情况下只保护100MB以下的文档（doc、docx、ppt、pptx、xls、xlsx、pdf），不保护图片、视频等，不保护txt。但是可以通过设置让其支持某个后缀名的文件。 
 
-![恢复页面](https://pic.imgdb.cn/item/66b70b67d9c307b7e98ba6c6.png)
+![恢复页面](https://ooo.0x0.ooo/2024/08/24/OtL2KC.png)
 
 在被加密后自行恢复即可
 
@@ -52,27 +52,27 @@ order: 2
 
 缺点：回滚不是万能的。存在病毒造成了破坏但是杀毒软件没有识别到或者没有成功回滚的可能。
 
-![样本在断网的情况下被主防杀](https://pic.imgdb.cn/item/66b70bc3d9c307b7e98c0866.png)
+![样本在断网的情况下被主防杀](https://ooo.0x0.ooo/2024/08/24/OtLjBN.png)
 
-![回滚了被加密的两个文件](https://pic.imgdb.cn/item/66b70bfdd9c307b7e98c50bb.png)
+![回滚了被加密的两个文件](https://ooo.0x0.ooo/2024/08/24/OtLE56.png)
 
 附：**K**aspersky **A**nti-**R**ansomware **T**ool（KART）的使用指南
 
-![全勾上然后一路Next](https://pic.imgdb.cn/item/66b70c18d9c307b7e98c6799.png)
+![全勾上然后一路Next](https://ooo.0x0.ooo/2024/08/24/OtLGKP.png)
 
-![关掉引导提示](https://pic.imgdb.cn/item/66b70c26d9c307b7e98c7362.png)
+![关掉引导提示](https://ooo.0x0.ooo/2024/08/24/OtLs8s.png)
 
-![点击注册](https://pic.imgdb.cn/item/66b70c31d9c307b7e98c7d7a.png)
+![点击注册](https://ooo.0x0.ooo/2024/08/24/OtLdHB.png)
 
-![全填上](https://pic.imgdb.cn/item/66b70c3ed9c307b7e98c89a7.png)
+![全填上](https://ooo.0x0.ooo/2024/08/24/OtLQ0b.png)
 
-![圈起来的是邮箱收到的要输入的激活码](https://pic.imgdb.cn/item/66b70c46d9c307b7e98c9212.png)
+![圈起来的是邮箱收到的要输入的激活码](https://ooo.0x0.ooo/2024/08/24/OtL60L.png)
 
-![打开设置](https://pic.imgdb.cn/item/66b70c5bd9c307b7e98ca6a7.png)
+![打开设置](https://ooo.0x0.ooo/2024/08/24/OtLfJa.png)
 
-![打开额外的防护](https://pic.imgdb.cn/item/66b70c63d9c307b7e98cad53.png)
+![打开额外的防护](https://ooo.0x0.ooo/2024/08/24/OtLlfS.png)
 
-![UnBlock是解除警报，Move to trust是移到信任](https://pic.imgdb.cn/item/66b70c6bd9c307b7e98cb40e.png)
+![UnBlock是解除警报，Move to trust是移到信任](https://ooo.0x0.ooo/2024/08/24/OtLYxK.png)
 
 ### [瑞星之剑](https://www.rising.com.cn/j/)
 
@@ -141,7 +141,7 @@ OneDrive免费提供5G存储空间，免费5G，购买Microsoft 365之后会升�
 
 直接集成在Windows文件管理器中，可与Windows无缝衔接。
 
-![OneDrive设置流程](https://pic.imgdb.cn/item/66b70c80d9c307b7e98cc9e6.png)
+![OneDrive设置流程](https://ooo.0x0.ooo/2024/08/24/OtLc1g.png)
 
 **个人保管库**：个人保管库（锁定状态下）中的文件不会受到勒索病毒的侵扰——可惜免费版只能往里放3个文件。
 
@@ -149,7 +149,7 @@ OneDrive免费提供5G存储空间，免费5G，购买Microsoft 365之后会升�
 
 （前提：onedrive还能运行。不能运行的话需要将系统恢复到能运行onedrive的状态）
 
-![OneDrive恢复流程](https://pic.imgdb.cn/item/66b70c89d9c307b7e98cdd18.png)
+![OneDrive恢复流程](https://ooo.0x0.ooo/2024/08/24/OtLSwl.png)
 
 1. 如果源文件被删除，可以通过网页版的“回收站”恢复。
 2. 如果文件被覆盖，可以在文件历史版本中进行恢复。

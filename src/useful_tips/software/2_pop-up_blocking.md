@@ -26,14 +26,14 @@ order: 2
 > [!warning]
 > 该软件有诱导用户使用Microsoft Edge作为默认浏览器、打开任务栏小（广）组（告）件（栏）等行为，请广大网友注意。
 >
-> ![图例](https://pic.imgdb.cn/item/66b70e0fd9c307b7e98e6097.jpg)
+> ![图例](https://ooo.0x0.ooo/2024/08/24/OtEpvN.jpg)
 >
-> ![图例](https://pic.imgdb.cn/item/66b70e1cd9c307b7e98e6e9a.jpg)
+> ![图例](https://ooo.0x0.ooo/2024/08/24/OtEJcC.jpg)
 
 下载[微软电脑管家](https://pcmanager.microsoft.com/zh-cn)。该软件具有弹窗拦截功能且不会与任何杀毒软件发生冲突。
 
-![图例](https://pic.imgdb.cn/item/66b70e32d9c307b7e98e8622.jpg)
+![图例](https://ooo.0x0.ooo/2024/08/24/OtEROL.jpg)
 
 由于其内置规则几乎相当于没有，故需要手动添加拦截。
 
-![图例](https://pic.imgdb.cn/item/66b70e3ad9c307b7e98e8c01.jpg)
+![图例](https://ooo.0x0.ooo/2024/08/24/OtEtNi.jpg)

@@ -69,9 +69,9 @@ PE盘制作方式参照[Firpe官网教程](https://firpe.cn/page-397)
 
 ![操作流程](https://pic.imgdb.cn/item/66b70cb5d9c307b7e98d1032.gif)
 
-![首页勾选](https://pic.imgdb.cn/item/66b70ccfd9c307b7e98d25ae.png)
+![首页勾选](https://ooo.0x0.ooo/2024/08/24/OtLApU.png)
 
-![更多设置勾选](https://pic.imgdb.cn/item/66b70cd9d9c307b7e98d2efa.png)
+![更多设置勾选](https://ooo.0x0.ooo/2024/08/24/OtLN6j.png)
 
 下面是我为什么不建议勾选某些选项：
 
@@ -93,7 +93,7 @@ PE盘制作方式参照[Firpe官网教程](https://firpe.cn/page-397)
 > [!warning]
 > 该PE在安装系统时（EIX系统安装）存在修改主页为2345的行为。但可以通过取消勾选避免。
 >
-> ![时不时出现的流氓选项](https://pic.imgdb.cn/item/66b70cebd9c307b7e98d4116.png)
+> ![时不时出现的流氓选项](https://ooo.0x0.ooo/2024/08/24/OtLrkp.png)
 >
 > 其旗下产品万能驱动在未经捆绑屏蔽处理前不能在除EasyU以外的任何环境下运行，否则会释放2345全家桶。
 
