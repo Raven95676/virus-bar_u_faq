@@ -77,7 +77,7 @@ order: 2
 
 ![360_jijiuxiang_pe_easyu.gif](https://s2.loli.net/2024/07/29/uK1IcRZkzr5FexA.gif)
 
-更多内容请参见[手动添加PE引导查杀病毒](https://faq.ravenote.top/follow-up/4_manually_add_pe.html)
+更多内容请参见[手动添加PE引导查杀病毒]()
 
 ### 方法B
 

@@ -7,7 +7,7 @@ icon: fas fa-link
 {
   "name": "病毒吧WIKI",
   "desc": "讲述病毒吧形形色色的人",
-  "url": "https://www.shenapex.xyz/",
+  "url": "https://bdbwiki.sbcnm.top/",
   "preview": "https://pic.imgdb.cn/item/66b70ea8d9c307b7e98efbdc.png"
 }
 ```

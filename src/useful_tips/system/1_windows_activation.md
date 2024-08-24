@@ -16,16 +16,16 @@ order: 1
 
 这个我没啥办法，撞运气下载激活工具吧。
 
-## Windows 8.1及以上
+## Windows 8.1 及以上
 
 > [!note]
-> 本节接受了幸运的红烧熊掌、shenapex、Firedoge的补充。
+> 本节接受了幸运的红烧熊掌、shenapex、Firedoge 的补充。
 
 ### 命令激活法
 
 首先，去微软官网查询下激活码[(KMS) 客户端激活和产品密钥](https://learn.microsoft.com/zh-cn/windows-server/get-started/kms-client-activation-keys)
 
-以Windows 10 专业版为例，依次执行：
+以 Windows 10 专业版为例，依次执行：
 
 ```shell
 slmgr /ipk W269N-WFGWX-YVC9B-4J6C9-T83GX
@@ -46,9 +46,9 @@ slmgr /ato
 irm https://massgrave.dev/get | iex
 ```
 
-来直接使用该脚本（本人验证截止至2024-07-29,该脚本内容正常）。
+来直接使用该脚本（本人验证截止至 2024-07-29,该脚本内容正常）。
 
-### Windows转版本
+### Windows 转版本
 
 首先，通过管理员权限终端执行：
 
@@ -66,7 +66,7 @@ slmgr /ipk 目标系统key
 
 转换到目标系统。然后再执行一次激活流程即可。
 
-目标系统key：
+目标系统 key：
 
 专业版: VK7JG-NPHTM-C97JM-9MPGT-3V66T
 
