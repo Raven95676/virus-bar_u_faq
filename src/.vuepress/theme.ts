@@ -11,7 +11,7 @@ export default hopeTheme({
 
   iconAssets: "https://lf3-cdn-tos.bytecdntp.com/cdn/expire-1-M/font-awesome/6.0.0/css/all.min.css",
 
-  logo: "https://ooo.0x0.ooo/2024/07/28/ORVf2r.png",
+  logo: "https://ooo.0x0.ooo/2024/08/23/OtHStj.png",
 
   repo: "Raven95676/virus-bar_u_faq",
 
