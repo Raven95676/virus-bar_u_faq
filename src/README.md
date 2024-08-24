@@ -3,7 +3,7 @@ home: true
 icon: fas fa-home
 title: 主页
 heroImage: https://ooo.0x0.ooo/2024/08/23/OtHStj.png
-heroText: 病毒吧非官方常见问题集
+heroText: 病毒吧非官方FAQ
 tagline: 由Raven主编的计算机安全入门教程。
 actions:
   - text: 开始阅览
