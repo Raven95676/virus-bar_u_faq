@@ -55,7 +55,7 @@ order: 1
 
 ## root 的获取
 
-关于 root 类管理软件，我们主要推荐使用 Magisk，如果您想要一种更好的隐藏 root 方案且您的设备为 GKI 内核（非 GKi 内核的设备也可以寻找第三方大佬提供的内核 ① 不对安全性作保证！ 或者自行编译）也推荐使用 KernelSU 进行 root.
+关于 root 类管理软件，我们主要推荐使用 Magisk，如果您想要一种更好的隐藏 root 方案且您的设备为 GKI 内核（非 GKi 内核的设备也可以寻找第三方大佬提供的内核 ① 不对安全性作保证！ 或者自行编译）也推荐使用 KernelSU 进行 root.apatch笔者不做推荐，有兴趣可自行了解
 
 ### 关于 Magisk 版本的选择与区别
 
@@ -63,7 +63,7 @@ order: 1
 
 **1.Magisk 官版：** 官方开源，24.2 ＋后由于作者进入谷歌工作，于是移除了 Magiskhide，可通过搭配 shamiko 模块（2024.01.09，机圈震动，shamiko 宣布停更）使用。[链接](https://github.com/topjohnwu/Magisk/releases)
 
-**2.Magisk Alpha 版：** 官方开源，实际上是官版的 canary 分支； 隐藏效果无过大差异，仍需使用 shamiko 模块，但内测含有不稳定功能，可能存在 bug，未知性较高。链接
+**2.Magisk Alpha 版：** 官方开源，实际上是官版的 canary 分支； 隐藏效果无过大差异，仍需使用 shamiko 模块，但内测含有不稳定功能，可能存在 bug，未知性较高。[链接](https://install.appcenter.ms/users/vvb2060/apps/magisk/distribution_groups/public)
 
 **3.Magisk delta 版（2023 年 11 月已改名为 Kitsune Mask）：** 第三方开源， 将官版 24.2 ＋移除的 Magiskhide 又加了回来，搭配使用 Shamiko 模块， 隐藏效果更好。[链接](https://github.com/HuskyDG/magisk-files/releases)
 
