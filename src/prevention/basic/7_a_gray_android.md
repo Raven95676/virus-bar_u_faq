@@ -12,14 +12,15 @@ tag:
 isOriginal: false
 order: 7
 ---
+
 > [!note]
-> 该部分转自alcose的随手记，内容已经本人验证大概率正确。
+> 该部分转自 alcose 的随手记，内容已经本人验证大概率正确。
 >
 > 目前该站点已失踪
 
-如果是a.gray系列报毒，那就是腾讯引擎的报法。这个报法有的甚至是基于应用名称的报毒。比如说软件里面带个“破解版”就会报crackgame。一般来说，怕别用，用别怕。
+如果是 a.gray 系列报毒，那就是腾讯引擎的报法。这个报法有的甚至是基于应用名称的报毒。比如说软件里面带个“破解版”就会报 crackgame。一般来说，怕别用，用别怕。
 
-目前已找到的关于a.gray系列的解释：
+目前已找到的关于 a.gray 系列的解释：
 
 a.gray.sexyHeuristic->涉黄软件
 
@@ -55,7 +56,7 @@ a.gray.Sexoutergame->黄色游戏
 
 a.gray.PiggyGoldcoin->虚拟货币
 
-a.gray.trpRisk->腾讯trp引擎认为其有风险
+a.gray.trpRisk->腾讯 trp 引擎认为其有风险
 
 a.gray.GenericAgent->通用客户端病毒
 

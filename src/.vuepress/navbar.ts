@@ -20,5 +20,5 @@ export default navbar([
     icon: "fas fa-star",
     activeMatch: "^/useful_tips/",
   },
-  "links"
+  "links",
 ]);

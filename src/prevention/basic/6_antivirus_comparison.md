@@ -1,6 +1,6 @@
 ---
 title: 主流杀毒软件测评比较
-author: 
+author:
   - shenapex
   - Raven95676
 date: 2024-08-21
@@ -23,15 +23,15 @@ order: 6
 ---
 
 > [!note]
-> 本图表由shenapex进行设计与绘制，Raven95676进行微调、数据统计以及评价编写。
+> 本图表由 shenapex 进行设计与绘制，Raven95676 进行微调、数据统计以及评价编写。
 >
-> 雷达图数据经AVC2021-2024测试数据综合评估得出。
-> 
-> 360和火绒的成绩由个人印象与卡饭2021年的高级威胁保护评测帖子得出。
+> 雷达图数据经 AVC2021-2024 测试数据综合评估得出。
 >
-> 所以说虽然贡献者只写了Raven95676，但实际上还有shenapex
+> 360 和火绒的成绩由个人印象与卡饭 2021 年的高级威胁保护评测帖子得出。
 >
-> 感谢shenapex的付出
+> 所以说虽然贡献者只写了 Raven95676，但实际上还有 shenapex
+>
+> 感谢 shenapex 的付出
 
 <iframe src="/antivirus-comparison.html"
         width="100%" height="1400" frameborder="0">

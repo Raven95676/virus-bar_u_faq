@@ -11,31 +11,32 @@ tag:
 isOriginal: true
 order: 2
 ---
-首先需要明确，现在没有任何手段可以100%防御电脑端勒索病毒。手机只要不乱安装软件乱授权或者随便登别人的Apple ID都没有大问题。
+
+首先需要明确，现在没有任何手段可以 100%防御电脑端勒索病毒。手机只要不乱安装软件乱授权或者随便登别人的 Apple ID 都没有大问题。
 
 下面是从几个方面来进行勒索病毒的防御。
 
-## Windows Defender用户
+## Windows Defender 用户
 
-使用Windows defender的用户可以打开wd的“防勒索保护”以获得更高的防勒索能力。方法请参照：[Win10怎么样使用Defender防止勒索病毒](https://jingyan.baidu.com/article/495ba841b715e538b20ede66.html)
+使用 Windows defender 的用户可以打开 wd 的“防勒索保护”以获得更高的防勒索能力。方法请参照：[Win10 怎么样使用 Defender 防止勒索病毒](https://jingyan.baidu.com/article/495ba841b715e538b20ede66.html)
 
 ## 安全辅助软件
 
 > [!note]
-> 使用的样本 SHA256为：7de7ce42cde20847749fa5bc4048cf5cacec8c2bf49169d7d262ea38630640ea
+> 使用的样本 SHA256 为：7de7ce42cde20847749fa5bc4048cf5cacec8c2bf49169d7d262ea38630640ea
 
 在原有杀毒软件的情况下，可以使用安全辅助软件对系统进行布防。关于安全辅助软件，请参阅[正确利用杀毒软件辅助工具](https://faq.ravenote.top/prevention/basic/5_auxiliary_antivirus.html)。
 
-### [360文档卫士](https://weishi.360.cn/wendangweishi.html)
+### [360 文档卫士](https://weishi.360.cn/wendangweishi.html)
 
 > [!caution]
 > 需要保证在勒索软件彻底清除完成的情况下才能进行还原，否则还原后的文件将继续被加密。
 >
-> 360文档卫士只防加密文件类勒索。
+> 360 文档卫士只防加密文件类勒索。
 
 优点：在文档作出更改时自动备份文档，除非文档卫士本身遭到针对性攻击，不然备份文件基本上是安全的。
 
-缺点：就像名字一样，默认情况下只保护100MB以下的文档（doc、docx、ppt、pptx、xls、xlsx、pdf），不保护图片、视频等，不保护txt。但是可以通过设置让其支持某个后缀名的文件。 
+缺点：就像名字一样，默认情况下只保护 100MB 以下的文档（doc、docx、ppt、pptx、xls、xlsx、pdf），不保护图片、视频等，不保护 txt。但是可以通过设置让其支持某个后缀名的文件。
 
 ![恢复页面](https://ooo.0x0.ooo/2024/08/24/OtL2KC.png)
 
@@ -44,9 +45,9 @@ order: 2
 ### [Kaspersky Anti-Ransomware Tool](https://www.kaspersky.com/anti-ransomware-tool)（KART）
 
 > [!note]
-> 本软件只能Block（封锁）病毒，需要手动将被封锁的病毒删除。
+> 本软件只能 Block（封锁）病毒，需要手动将被封锁的病毒删除。
 >
-> Windows LTSC版本、企业版请安装FOR BUSINESS。家庭版、专业版请安装FOR HOME.
+> Windows LTSC 版本、企业版请安装 FOR BUSINESS。家庭版、专业版请安装 FOR HOME.
 
 优点：ksn（卡巴斯基安全云）和卡巴主防的提炼，在不安装卡巴斯基的情况下提供较为全面的保护，具有回滚能力。
 
@@ -89,7 +90,7 @@ order: 2
 
 ### 已知问题
 
-Kaspersky® Anti-Ransomware Tool尤其是在打开额外的防护的情况下会导致sandboxie部分功能无法正常使用。
+Kaspersky® Anti-Ransomware Tool 尤其是在打开额外的防护的情况下会导致 sandboxie 部分功能无法正常使用。
 
 ## 为什么要备份
 
@@ -113,11 +114,11 @@ Kaspersky® Anti-Ransomware Tool尤其是在打开额外的防护的情况下会
 ## 利用离机备份保护重要文件 <Badge text="推荐" type="tip" />
 
 > [!caution]
-> 如果使用MLC/SLC/TLC固态硬盘作为移动硬盘，请定期通电（连接电脑，不是连接充电器），以确保数据不会丢失。
-> 
-> 对于长时间存储，推荐使用CMR机械硬盘，并注意防震。
+> 如果使用 MLC/SLC/TLC 固态硬盘作为移动硬盘，请定期通电（连接电脑，不是连接充电器），以确保数据不会丢失。
 >
-> 切勿使用QLC固态硬盘或SMR机械硬盘进行备份。
+> 对于长时间存储，推荐使用 CMR 机械硬盘，并注意防震。
+>
+> 切勿使用 QLC 固态硬盘或 SMR 机械硬盘进行备份。
 >
 > ![垃圾硬盘的代价](https://ooo.0x0.ooo/2024/08/24/OtH841.jpg)
 
@@ -128,26 +129,26 @@ Kaspersky® Anti-Ransomware Tool尤其是在打开额外的防护的情况下会
 
 ### OneDrive
 
-~~360文档卫士Plus~~
+~~360 文档卫士 Plus~~
 
-从原理上说，这个比360文档卫士安全。
+从原理上说，这个比 360 文档卫士安全。
 
 > [!warning]
-> 在购买OneDrive前，请先测试本地的文件上传下载速度是否满意，并确保能够访问[OneDrive网页版](https://onedrive.live.com/)，因为数据恢复可能需要通过网页版操作。
+> 在购买 OneDrive 前，请先测试本地的文件上传下载速度是否满意，并确保能够访问[OneDrive 网页版](https://onedrive.live.com/)，因为数据恢复可能需要通过网页版操作。
 >
 > 暂未发现隐私泄露风险，尤其是其个人保管库功能。
 
-OneDrive免费提供5G存储空间，免费5G，购买Microsoft 365之后会升级为1T（[数码荔枝](https://lizhi.shop/site/products/id/65)售价￥259/年，为了数据安全请勿购买拼车版）。
+OneDrive 免费提供 5G 存储空间，免费 5G，购买 Microsoft 365 之后会升级为 1T（[数码荔枝](https://lizhi.shop/site/products/id/65)售价￥ 259/年，为了数据安全请勿购买拼车版）。
 
-直接集成在Windows文件管理器中，可与Windows无缝衔接。
+直接集成在 Windows 文件管理器中，可与 Windows 无缝衔接。
 
 ![OneDrive设置流程](https://ooo.0x0.ooo/2024/08/24/OtLc1g.png)
 
-**个人保管库**：个人保管库（锁定状态下）中的文件不会受到勒索病毒的侵扰——可惜免费版只能往里放3个文件。
+**个人保管库**：个人保管库（锁定状态下）中的文件不会受到勒索病毒的侵扰——可惜免费版只能往里放 3 个文件。
 
 **数据恢复方法**：
 
-（前提：onedrive还能运行。不能运行的话需要将系统恢复到能运行onedrive的状态）
+（前提：onedrive 还能运行。不能运行的话需要将系统恢复到能运行 onedrive 的状态）
 
 ![OneDrive恢复流程](https://ooo.0x0.ooo/2024/08/24/OtLSwl.png)
 
@@ -159,36 +160,36 @@ OneDrive免费提供5G存储空间，免费5G，购买Microsoft 365之后会升�
 > [!caution]
 > 由于百度网盘存在文件和谐和隐私泄露的风险，请务必在上传前将文件压缩、加密，或者使用[VeraCrypt](https://www.veracrypt.fr/code/VeraCrypt/)进行保护。
 
-百度网盘提供200G免费存储免费200G，购买售价263/年（连续包年）的网盘会员后可升级为5T。
+百度网盘提供 200G 免费存储免费 200G，购买售价 263/年（连续包年）的网盘会员后可升级为 5T。
 
 **数据恢复方法：**
 
 从网盘下载备份的文件。
 
-### 阿里云OSS
+### 阿里云 OSS
 
 > [!warning]
-> 阿里云OSS中的文件会被审核，因此请务必将文件压缩、加密后上传，或使用VeraCrypt进行保护。
+> 阿里云 OSS 中的文件会被审核，因此请务必将文件压缩、加密后上传，或使用 VeraCrypt 进行保护。
 >
 > 暂未发现隐私泄露风险。
 
-阿里云OSS的存储成本为0.12元/GB/月，可以购买9元/年的40G储存包来节省开支。上传下载需要支付流量费用。由于配置相对于上面两个较为复杂且个人感觉没人用这个，暂不展开讲解。如有人需详细讲解可联系本人<Raven95676@proton.me>。有人需要的话本人就展开讲讲这个。
+阿里云 OSS 的存储成本为 0.12 元/GB/月，可以购买 9 元/年的 40G 储存包来节省开支。上传下载需要支付流量费用。由于配置相对于上面两个较为复杂且个人感觉没人用这个，暂不展开讲解。如有人需详细讲解可联系本人<Raven95676@proton.me>。有人需要的话本人就展开讲讲这个。
 
-胜在存得少就便宜。并且还有ossbrowser这种图形化管理软件。
+胜在存得少就便宜。并且还有 ossbrowser 这种图形化管理软件。
 
 **数据恢复方法**：
 
-通过ossbrowser下载备份的文件。
+通过 ossbrowser 下载备份的文件。
 
-## 利用NAS设备保护重要文件
+## 利用 NAS 设备保护重要文件
 
 虽然本人目前正在使用该方案对电脑进行备份，但这个方法存在一些问题：
 
-1. 使用NAS进行备份需要一定的硬件投入，包括NAS设备和硬盘的购买。
+1. 使用 NAS 进行备份需要一定的硬件投入，包括 NAS 设备和硬盘的购买。
 
-2. 对于安全意识较低的小白用户，可能会因配置不当而让NAS受到勒索病毒的威胁。这些病毒专门针对NAS设备，如果配置不当，可能导致数据丢失或被加密。
+2. 对于安全意识较低的小白用户，可能会因配置不当而让 NAS 受到勒索病毒的威胁。这些病毒专门针对 NAS 设备，如果配置不当，可能导致数据丢失或被加密。
 
-尽管NAS备份方案有效，但并不适合所有用户，所以这里不作详细展开。
+尽管 NAS 备份方案有效，但并不适合所有用户，所以这里不作详细展开。
 
 ## 歪·门·邪·道
 
