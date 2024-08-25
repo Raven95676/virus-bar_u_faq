@@ -60,13 +60,13 @@ VAB 架构：逻辑分区依旧不存在，AB 的的动态分区架构中，逻�
 
 ### 关于 data 解密与 system 镜像挂载失败的解决办法
 
-data 解密：先提取 vendor 分区修改 data 加密状态（篇幅问题） 通过 Fastboot 格式化 data（会清除所有数据！）后解密（不建议解密！！这项是为了您的数据安全着想，若第三方 rec 支持解密 data），[参考教程](https://www.coolapk.com/feed/33153235)
+data 解密：先提取 vendor 分区修改 data 加密状态（篇幅问题） 通过 fastboot 格式化 data（会清除所有数据！）后解密（不建议解密！！这项是为了您的数据安全着想，若第三方 rec 支持解密 data），[参考教程](https://www.coolapk.com/feed/33153235)
 
 system 挂载失败解决办法：（仅适用于因 EROFS 导致的无法读写）利用 DNA 脚本（或软件）去除校验后刷入，[参考教程](https://www.coolapk.com/feed/33153235)：
 
 ### 刷写镜像分区与救砖
 
-由于 VAB 中谷歌引入 Super 动态分区的概念导致我们无法直接在 fastboot 下刷写 system，vendor 等分区，谷歌引入了 Fastbootd 模式以方便刷写 Super 中的各类分区，原先的 fastboot 则用来刷写 super，boot 等分区
+由于 VAB 中谷歌引入 Super 动态分区的概念导致我们无法直接在 fastboot 下刷写 system，vendor 等分区，谷歌引入了 fastbootd 模式以方便刷写 Super 中的各类分区，原先的 fastboot 则用来刷写 super，boot 等分区
 
 ![各模式下可刷写的分区不同](https://ooo.0x0.ooo/2024/08/25/OtQOAv.png)
 
@@ -80,7 +80,7 @@ Oppo/1+提供的是高通平台的 9008 刷机，也就是深度救砖
 
 ![深度救砖](https://ooo.0x0.ooo/2024/08/25/OtQoCc.png)
 
-当我们 rec 和 fastboot 都进不去时，就只有尝试使用 9008 进行救砖，但是现在一般都要有授权才能进入 9008 进行刷机，我们可以尝试在某宝找人帮你
+当我们 rec 和 fastboot 都进不去时，就只有尝试使用深刷进行救砖，但是现在一般都要有授权才能进入深刷进行刷机，我们可以尝试在某宝找人帮你
 
 > [!note]
 > 常见变砖情况
@@ -93,7 +93,7 @@ Oppo/1+提供的是高通平台的 9008 刷机，也就是深度救砖
 >
 > 4.  **开机键无反应：** 先检查是不是电源键坏了或者没电了，如果不是，大概率黑砖了，需要 9008 救砖
 >
-> 5.  **进不了系统，开机自动进入 Fastboot：** 大概率是卡 AVB2.0 校验，去除校验即可，也有可能是分区损坏（乱刷 boot 吧嘻嘻）
+> 5.  **进不了系统，开机自动进入 fastboot：** 大概率是卡 AVB2.0 校验，去除校验即可，也有可能是分区损坏（乱刷 boot 吧嘻嘻）
 >
 > 6.  **进不了 Fastboot，只能进 recovery：** 不好说……可能是 boot 损坏，9008 下刷入 boot 试试？
 

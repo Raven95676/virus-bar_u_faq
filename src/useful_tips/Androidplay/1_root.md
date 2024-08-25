@@ -31,7 +31,7 @@ order: 1
 
 而在互联网早期时代，由于系统底层管控不严也有着许多方法应对，比如使用李跳跳这类无障碍软件跳过广告[^3]，或者使用一键 root 软件，但伴随着安卓版本的提高，虚拟沙盒机制出现以及对 SELinux 的严格管理让一键 root 软件不再适用，Android13＋ 十分钟后会自动关闭第三方无障碍，厂商定制化也严重破坏了 adb 权能[^4]，无 root 已无法满足我们的一些需求，有时为了系统优化/影响第三方软件行为，我们不得不进行 root。
 
-然而厂商为了安全和自己的利益，对我们刷机的第一步——Bootloader 进行了锁定，本期篇目我们对刷机的必要步骤和重要知识点作这介绍，以便各位查阅和了解。
+然而厂商为了安全和自己的利益，对我们刷机的第一步——Bootloader 进行了锁定，使得我们刷机困难了许多，因此我们首先要先对bootloader进行解锁，相关介绍在[解锁bootloader篇](https://faq.ravenote.top/useful_tips/Androidplay/2_bootloader.html)
 
 > [!note]
 > 必须说明的是解锁 ≠root，root 也不一定非要解锁（比如魅族官方支持获取 root），但现在主流的 root 方案都必须解锁后才能使用。
@@ -95,7 +95,7 @@ order: 1
 >
 > 在“开发者选项”中关闭“Flyme 支付保护”
 
-并永久允许此电脑调试（模式：系统中）， 连接电脑后输入＂adb devices＂，再输入＂adb reboot bootloader＂，之后手机会重启并进入 Fastboot 模式， 将修补好的 boot 文件用`Fastboot flash boot path`（是指的 boot 文件在 windwos 系统中的存放路径！！不要输入 path, 出厂内核 Android 版本为 Android13 的机型将 ramdisk 从 boot 中移除，单独放在了 init_boot 分区中，修补刷入方法大同小异，提取 init_boot 修补后使用`fastboot flash init_boot path`刷人即可）＂刷入，之后使用`fastboot reboot`命令重启进入系统
+并永久允许此电脑调试（模式：系统中）， 连接电脑后输入＂adb devices＂，再输入``adb reboot bootloader``，之后手机会重启并进入 Fastboot 模式， 将修补好的 boot 文件用`fastboot flash boot path`（是指的 boot 文件在 windwos 系统中的存放路径！！不要输入 path, 出厂内核 Android 版本为 Android13 的机型将 ramdisk 从 boot 中移除，单独放在了 init_boot 分区中，修补刷入方法大同小异，提取 init_boot 修补后使用`fastboot flash init_boot path`刷人即可）＂刷入，之后使用`fastboot reboot`命令重启进入系统
 
 3. 在第三方 rec 下刷入已修补好的 boot 镜像将 magisk 安紫包后设改为 zip 使用第三方 rec 刷入
 
@@ -114,6 +114,6 @@ Magisk 引入了 systemless 机制以用来修改 system 分区，不会破坏�
 > 4. 永远不会知道你会碰上什么玄学问题，请一定记得备份原厂 boot， 以备不时之需
 
 [^1]: 据测评数据报告，各大厂商系统中华为手机广告数量居首位， 魅族居末位（2022 年）
-[^2]: PDD 利用的并非只是厂商给他开的”后门“，自身利用 Android Bundle 风水漏洞进行提权[参考链接 1](https://mp.weixin.qq.com/s/P_EYQxOEupqdU0BJMRqWsw)[参考链接 2](https://mp.weixin.qq.com/s/P_EYQxOEupqdU0BJMRqWsw)，并进行了许多恶意行为（附：该漏洞已在谷歌 2023 年 4 月份补丁中被修复，Android13 ＋不受此漏洞影响）
+[^2]: PDD 利用的并非只是厂商给他开的”后门“，自身利用 Android Bundle 风水漏洞进行提权[参考链接 ](https://mp.weixin.qq.com/s/P_EYQxOEupqdU0BJMRqWsw)，并进行了许多恶意行为（附：该漏洞已在谷歌 2023 年 4 月份补丁中被修复，Android13 ＋不受此漏洞影响）
 [^3]: 李跳跳、大圣净化等反广告 XPosed 模块在 2023 年 8 月被 TX 寄律师函导致永久停更/移除部分功能，在此致敬。
 [^4]: 例：卸载系统应用达到一定上限时将无法继续卸载更多系统软件（仅限 adb）；ColorOS13 将自家浏览器等部分系统应用进行“加密”，（无法通过 adb 卸载）
