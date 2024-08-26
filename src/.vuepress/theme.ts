@@ -54,7 +54,9 @@ export default hopeTheme({
       components: ["VPCard", "Badge", "SiteInfo"],
     },
 
-    git: true,
+    git: {
+      contributors: false,
+    },
     searchPro: {
       indexContent: true,
       indexOptions: {

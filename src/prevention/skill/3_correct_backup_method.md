@@ -15,8 +15,6 @@ order: 3
 
 > [!note]
 > 本文由 shenapex 编写，Raven95676 代投
->
-> 所以说虽然贡献者那里是 Raven95676，但实际上文章的编写者是 shenapex
 
 <iframe src="/correct_backup_is_important.html"
         width="100%" height="500" frameborder="0">

@@ -29,8 +29,6 @@ order: 6
 >
 > 360 和火绒的成绩由个人印象与卡饭 2021 年的高级威胁保护评测帖子得出。
 >
-> 所以说虽然贡献者只写了 Raven95676，但实际上还有 shenapex
->
 > 感谢 shenapex 的付出
 
 <iframe src="/antivirus-comparison.html"
