@@ -34,6 +34,7 @@ actions:
     - MediaStore.Images
     - MediaStore.Video
     - MediaStore.Audio
+- 看到 Microsoft 的签名 ≠ 这个驱动由 Microsoft 开发。有 Microsoft Windows Hardware Compatibility Publisher 这个签名只代表了这个驱动通过了 Windows 硬件兼容性测试。
 
 ## 历程
 
