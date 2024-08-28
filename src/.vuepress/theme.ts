@@ -1,5 +1,5 @@
 import { hopeTheme } from "vuepress-theme-hope";
-import { cut } from "nodejs-jieba";
+import "dotenv/config.js";
 
 import navbar from "./navbar.js";
 import sidebar from "./sidebar.js";
@@ -57,12 +57,10 @@ export default hopeTheme({
     git: {
       contributors: false,
     },
-    searchPro: {
-      indexContent: true,
-      indexOptions: {
-        tokenize: (text, fieldName) =>
-          fieldName === "id" ? [text] : cut(text, true),
-      },
+    docsearch: {
+      apiKey: process.env.VUE_APP_APIKEY,
+      indexName: "faq",
+      appId: process.env.VUE_APP_APPID
     },
     mdEnhance: {
       align: true,
