@@ -57,6 +57,7 @@ export default hopeTheme({
     git: {
       contributors: false,
     },
+    blog: true,
     docsearch: {
       apiKey: process.env.VUE_APP_APIKEY,
       indexName: "faq",
