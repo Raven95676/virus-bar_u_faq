@@ -16,11 +16,6 @@ actions:
     link: ./contributors
 ---
 
-> [!important]
-> 由于搜索插件[vuepress-plugin-search-pro](https://plugin-search-pro.vuejs.press/)的限制，请使用尽可能简短的关键词对文档进行搜索。
->
-> 比如“云安全响应”需要拆分成“云 安全 响应”（关键词之间使用空格分隔）。
-
 ## 小白电脑使用必知必会
 
 - 不要直接用文件粉碎机卸载软件，**尤其是杀毒软件**。
