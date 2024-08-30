@@ -18,6 +18,10 @@ order: 2
 
 参见四海一叶秋：[卡巴斯基重启清除后鼠标键盘无法使用的 2 个解决方法](https://tieba.baidu.com/p/7828184528)
 
+如果你的电脑开启了BitLocker，进入时会要求输入恢复密钥（体现为下图），请用出问题的电脑以外的设备（包括手机）打开 Web 浏览器并转到[https://aka.ms/myrecoverykey](https://aka.ms/myrecoverykey)，使用 Microsoft 帐户登录并找到密钥 ID。
+
+![BitLocker已开启](https://ooo.0x0.ooo/2024/08/31/Otl7HF.jpg)
+
 ## 系统还能启动，但是有点玄学小毛病
 
 > [!important]
