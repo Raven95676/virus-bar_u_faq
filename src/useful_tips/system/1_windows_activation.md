@@ -37,9 +37,6 @@ slmgr /ato
 
 ### 激活工具法
 
-> [!tip]
-> 数字证书激活法已被微软封杀，无法使用
-
 这里推荐一个叫做[Microsoft Activation Scripts](https://github.com/elitekamrul/MAS)的脚本。可以下载使用，也可以执行：
 
 ```shell
