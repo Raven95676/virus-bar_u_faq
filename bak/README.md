@@ -20,6 +20,11 @@ actions:
 
 - 不要直接用文件粉碎机卸载软件，**尤其是杀毒软件**。安装/卸载杀毒软件之后必须重启。
 - 小白别动注册表。非得动的话先备份。
+  - 如果想要启用注册表自动备份，在“HKLM\System\CurrentControlSet\Control\Session Manager\Configuration Manager”下创建值为1的“EnablePeriodicBackup”DWORD(32位)值项。系统会自动在每次开机时备份注册表至“C:\Windows\System32\config\RegBack”文件夹中。
+  - 在WindowsRE中依次点击“疑难解答→高级选项”，接着在高级选项窗口点击“命令提示符”，执行下面的命令进行还原：
+  ```shell
+  copy C:\Windows\System32\config\RegBack\*.* C:\Windows\System32\config\
+  ```
 - 一般情况下，绿色软件都需要将所有文件全部解压缩出来才能用。尤其是各位在压缩包里面看见了 dll 文件或“绿化.bat/绿化.cmd/绿化.reg”的时候。
 - ps1/cmd/com/reg/bat 结尾的和 exe 一样，都能在里面藏病毒。
 - 卡巴斯基不是没有免费版，免费版需要输入 3SXCM-M9RJM-6985N-PWKP7 这个激活码进行转换。
