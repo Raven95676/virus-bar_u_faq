@@ -41,7 +41,7 @@ order: 4
 
 ### 防止Steam文件篡改
 
-为防止Steam文件被替换，需加入如下规则并信任Steam目录下的相关操作。
+为防止Steam文件被替换，同时避免误拦截Steam自身行为，需加入如下规则并信任Steam目录下的相关操作。
 
 ![规则设置](https://ooo.0x0.ooo/2024/09/14/O4FIzI.png)
 
