@@ -39,13 +39,16 @@ order: 4
 
 ![信任设置](https://ooo.0x0.ooo/2024/09/14/O4FHZL.png)
 
-### 防止Steam文件篡改
+### 防止篡改Steam文件
 
-为防止Steam文件被替换，同时避免误拦截Steam自身行为，需加入如下规则并信任Steam目录下的相关操作。
+为防止Steam文件被替换，同时避免误拦截Steam自身行为，需加入如下规则。
 
-![规则设置](https://ooo.0x0.ooo/2024/09/14/O4FIzI.png)
+> [!caution]
+> 该规则默认放行steamapp下的程序。如小红车之类的软件下载的内容请务必移动至其他目录运行。
 
-![信任设置](https://ooo.0x0.ooo/2024/09/14/O4F3PD.png)
+![规则设置](https://ooo.0x0.ooo/2024/09/15/O4hBEB.png)
+
+![信任设置](https://ooo.0x0.ooo/2024/09/15/O4hWFK.png)
 
 ### 禁止读取Steam内存
 
