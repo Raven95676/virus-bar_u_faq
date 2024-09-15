@@ -31,13 +31,15 @@ order: 4
 
 ![查看数字签名](https://ooo.0x0.ooo/2024/09/14/O4FXu1.png)
 
-### 防止Steam内存读取
+### 禁止读取Steam配置
 
-为防止Steam内存被恶意读取，同时避免误拦截Steam自身行为，需加入如下规则并信任数字签名为“Valve Corp.”的程序。
+可以通过Hips软件限制非数字签名为“Valve Corp.”的程序读取Steam配置。
 
-![规则设置](https://ooo.0x0.ooo/2024/09/14/O4FDBC.png)
+虽然ssfn已经随着steam新版本的发布进入了历史的垃圾堆，但是为了防止降级客户端生成ssfn或升级客户端后ssfn未删除导致ssfn泄露，也加上了关于ssfn的规则。
 
-![信任设置](https://ooo.0x0.ooo/2024/09/14/O4FHZL.png)
+![规则设置](https://ooo.0x0.ooo/2024/09/15/O4hk9S.png)
+
+![信任设置](https://ooo.0x0.ooo/2024/09/15/O4hzUN.png)
 
 ### 防止篡改Steam文件
 
@@ -52,19 +54,13 @@ order: 4
 
 ### 禁止读取Steam内存
 
-启用增强保护时，可以禁止读取Steam内存。为了避免误拦截Steam程序行为，依旧需要信任数字签名为“Valve Corp.”的程序（参见上文图片）。
+启用增强保护时，可以禁止读取Steam内存。为了避免误拦截Steam程序行为，依旧需要信任数字签名为“Valve Corp.”的程序（信任设置参见上文图片）。
 
 ![规则设置](https://ooo.0x0.ooo/2024/09/14/O4FC9F.png)
 
-### 处理SSFN文件
+### 使用优秀的杀毒软件
 
-SSFN文件已经随着新版本steam的发布进入了历史的垃圾堆。如果各位仍担心SSFN文件还存在于电脑中，可以手动在Steam安装目录下删除它。引用其它网站的内容：
-
-> 打开Steam目录，勾选“隐藏项目文件”，然后在搜索框中搜索“ssfn”，将找到的所有ssfn文件删除。
-
-![搜索](https://gcore.jsdelivr.net/gh/lxcf/js@27ab632/upload/2.png)
-
-![删除](https://gcore.jsdelivr.net/gh/lxcf/js@27ab632/upload/3.png)
+这些措施只能在一定程度上增强steam的安全性，无法做到绝对避免任何入侵行为。使用优秀的杀毒软件依然是必须的。
 
 ## 补救措施
 
