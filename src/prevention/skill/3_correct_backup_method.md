@@ -16,8 +16,8 @@ order: 3
 > [!note]
 > 本文由 shenapex 编写，Raven95676 代投
 
-<iframe src="/correct_backup_is_important.html"
-        width="100%" height="500" frameborder="0">
+<iframe src="/correct-backup-is-important.html"
+        width="100%" height="500">
 </iframe>
 
 ::: details 速通通道

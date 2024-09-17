@@ -36,3 +36,10 @@ icon: fas fa-users
   "background": "rgba(255, 255, 250, 0.15)"
 }
 ```
+
+```component VPCard
+{
+  "title": "无昵称",
+  "background": "rgba(255, 255, 250, 0.15)"
+}
+```

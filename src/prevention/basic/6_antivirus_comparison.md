@@ -32,5 +32,5 @@ order: 6
 > 感谢 shenapex 的付出
 
 <iframe src="/antivirus-comparison.html"
-        width="100%" height="1400" frameborder="0">
+        width="100%" height="1400">
 </iframe>
