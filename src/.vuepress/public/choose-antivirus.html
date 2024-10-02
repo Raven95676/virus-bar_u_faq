@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>杀毒软件选择问卷</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+            background-color: #e6f2ff;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: auto;
+            background: white;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            color: #0056b3;
+            text-align: center;
+        }
+
+        .question {
+            margin-bottom: 20px;
+            background-color: #f0f8ff;
+            padding: 15px;
+            border-radius: 5px;
+        }
+
+        .options {
+            display: flex;
+            justify-content: start;
+            gap: 20px;
+        }
+
+        button {
+            display: block;
+            width: 100%;
+            padding: 10px;
+            background-color: #0056b3;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            margin-top: 20px;
+            transition: background-color 0.3s;
+        }
+
+        button:hover {
+            background-color: #003d82;
+        }
+
+        #result {
+            margin-top: 20px;
+            font-weight: bold;
+            text-align: center;
+            color: #0056b3;
+        }
+
+        input[type="radio"] {
+            accent-color: #0056b3;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>杀毒软件选择问卷</h1>
+        <form id="questionnaireForm">
+            <div class="question">
+                <p>1. 我希望杀毒软件能够实时监控系统，在未知威胁出现时及时拦截并回滚恶意操作（主动防御能力）。</p>
+                <div class="options">
+                    <label><input type="radio" name="q1" value="yes" required> 是</label>
+                    <label><input type="radio" name="q1" value="no" required> 否</label>
+                </div>
+            </div>
+
+            <div class="question">
+                <p>2. 我希望杀毒软件能够在离线和在线状态下都保持较高的扫描能力。</p>
+                <div class="options">
+                    <label><input type="radio" name="q2" value="yes" required> 是</label>
+                    <label><input type="radio" name="q2" value="no" required> 否</label>
+                </div>
+            </div>
+
+            <div class="question">
+                <p>3. 我希望杀毒软件能够在离线和在线状态下都保持较高的主动防御能力。</p>
+                <div class="options">
+                    <label><input type="radio" name="q3" value="yes" required> 是</label>
+                    <label><input type="radio" name="q3" value="no" required> 否</label>
+                </div>
+            </div>
+
+            <div class="question">
+                <p>4. 我希望杀毒软件在长达七天的断网后保持较高的扫描能力。</p>
+                <div class="options">
+                    <label><input type="radio" name="q4" value="yes" required> 是</label>
+                    <label><input type="radio" name="q4" value="no" required> 否</label>
+                </div>
+            </div>
+
+            <div class="question">
+                <p>5. 我希望杀毒软件在长达七天的断网后保持较高的主动防御能力。</p>
+                <div class="options">
+                    <label><input type="radio" name="q5" value="yes" required> 是</label>
+                    <label><input type="radio" name="q5" value="no" required> 否</label>
+                </div>
+            </div>
+
+            <div class="question">
+                <p>6. 我更希望在病毒运行前利用扫描查杀病毒，而不是利用主动防御拦截病毒。</p>
+                <div class="options">
+                    <label><input type="radio" name="q6" value="yes" required> 是</label>
+                    <label><input type="radio" name="q6" value="no" required> 否</label>
+                </div>
+            </div>
+
+            <div class="question">
+                <p>7. 我在下载软件之后更倾向于直接双击运行。</p>
+                <div class="options">
+                    <label><input type="radio" name="q7" value="yes" required> 是</label>
+                    <label><input type="radio" name="q7" value="no" required> 否</label>
+                </div>
+            </div>
+
+            <div class="question">
+                <p>8. 我更喜欢轻量级的杀毒软件，希望它尽可能避免干涉系统的正常运行，以避免可能引发的系统问题。</p>
+                <div class="options">
+                    <label><input type="radio" name="q8" value="yes" required> 是</label>
+                    <label><input type="radio" name="q8" value="no" required> 否</label>
+                </div>
+            </div>
+
+            <div class="question">
+                <p>9. 我希望杀毒软件能够利用沙箱（隔离程序操作以进行分析）技术分析未知文件是否恶意。</p>
+                <div class="options">
+                    <label><input type="radio" name="q9" value="yes" required> 是</label>
+                    <label><input type="radio" name="q9" value="no" required> 否</label>
+                </div>
+            </div>
+
+            <div class="question">
+                <p>10. 我需要使用灰色软件，且无法容忍频繁需要为灰色软件添加排除项。</p>
+                <div class="options">
+                    <label><input type="radio" name="q10" value="yes" required> 是</label>
+                    <label><input type="radio" name="q10" value="no" required> 否</label>
+                </div>
+            </div>
+
+            <div class="question">
+                <p>11. 我愿意忍受一定程度的系统性能影响。</p>
+                <div class="options">
+                    <label><input type="radio" name="q11" value="yes" required> 是</label>
+                    <label><input type="radio" name="q11" value="no" required> 否</label>
+                </div>
+            </div>
+
+            <div class="question">
+                <p>12. 我希望杀毒软件在后台运行时尽量减少对系统资源的占用，以保持系统使用的流畅性。</p>
+                <div class="options">
+                    <label><input type="radio" name="q12" value="yes" required> 是</label>
+                    <label><input type="radio" name="q12" value="no" required> 否</label>
+                </div>
+            </div>
+
+            <div class="question">
+                <p>13. 我不在乎误报。</p>
+                <div class="options">
+                    <label><input type="radio" name="q13" value="yes" required> 是</label>
+                    <label><input type="radio" name="q13" value="no" required> 否</label>
+                </div>
+            </div>
+
+            <div class="question">
+                <p>14. 我可以容忍一些误报。</p>
+                <div class="options">
+                    <label><input type="radio" name="q14" value="yes" required> 是</label>
+                    <label><input type="radio" name="q14" value="no" required> 否</label>
+                </div>
+            </div>
+
+            <div class="question">
+                <p>15. 我希望尽可能没有误报。</p>
+                <div class="options">
+                    <label><input type="radio" name="q15" value="yes" required> 是</label>
+                    <label><input type="radio" name="q15" value="no" required> 否</label>
+                </div>
+            </div>
+
+            <div class="question">
+                <p>16. 我很少使用具有流氓行为的软件，且希望尽可能没有误报。</p>
+                <div class="options">
+                    <label><input type="radio" name="q16" value="yes" required> 是</label>
+                    <label><input type="radio" name="q16" value="no" required> 否</label>
+                </div>
+            </div>
+
+            <div class="question">
+                <p>17. 我需要境内更快的云响应（恶意程序迅速拉黑）。</p>
+                <div class="options">
+                    <label><input type="radio" name="q17" value="yes" required> 是</label>
+                    <label><input type="radio" name="q17" value="no" required> 否</label>
+                </div>
+            </div>
+
+            <div class="question">
+                <p>18. 我希望杀毒软件不过度依赖云。</p>
+                <div class="options">
+                    <label><input type="radio" name="q18" value="yes" required> 是</label>
+                    <label><input type="radio" name="q18" value="no" required> 否</label>
+                </div>
+            </div>
+
+            <div class="question">
+                <p>19. 我愿意为杀毒软件的高级功能付费，以获得更全面的防护。</p>
+                <div class="options">
+                    <label><input type="radio" name="q19" value="yes" required> 是</label>
+                    <label><input type="radio" name="q19" value="no" required> 否</label>
+                </div>
+            </div>
+
+            <div class="question">
+                <p>20. 我愿意为杀毒软件的高级功能付费，以获得更多小工具。</p>
+                <div class="options">
+                    <label><input type="radio" name="q20" value="yes" required> 是</label>
+                    <label><input type="radio" name="q20" value="no" required> 否</label>
+                </div>
+            </div>
+
+            <div class="question">
+                <p>21. 我希望杀毒软件提供免费的清理工具、广告拦截等附加功能。</p>
+                <div class="options">
+                    <label><input type="radio" name="q21" value="yes" required> 是</label>
+                    <label><input type="radio" name="q21" value="no" required> 否</label>
+                </div>
+            </div>
+
+            <div class="question">
+                <p>22. 我在乎隐私问题。</p>
+                <div class="options">
+                    <label><input type="radio" name="q23" value="yes" required> 是</label>
+                    <label><input type="radio" name="q23" value="no" required> 否</label>
+                </div>
+            </div>
+
+            <div class="question">
+                <p>23. 我无法容忍玩笑程序（如“洛天依病毒”等）。</p>
+                <div class="options">
+                    <label><input type="radio" name="q24" value="yes" required> 是</label>
+                    <label><input type="radio" name="q24" value="no" required> 否</label>
+                </div>
+            </div>
+
+            <div class="question">
+                <p>24. 我无法容忍孱弱的主动防御能力。</p>
+                <div class="options">
+                    <label><input type="radio" name="q25" value="yes" required> 是</label>
+                    <label><input type="radio" name="q25" value="no" required> 否</label>
+                </div>
+            </div>
+
+            <div class="question">
+                <p>25. 我无法容忍因为沙箱导致程序频繁无法使用。</p>
+                <div class="options">
+                    <label><input type="radio" name="q26" value="yes" required> 是</label>
+                    <label><input type="radio" name="q26" value="no" required> 否</label>
+                </div>
+            </div>
+
+            <button type="submit">提交</button>
+        </form>
+        <div id="result"></div>
+    </div>
+
+    <script>
+        const antivirusScores = {
+            'AVAST': 0,
+            'ESET': 0,
+            '卡巴斯基': 0,
+            '360': 0
+        };
+
+        const mutuallyExclusiveGroups = [
+            ['q1', 'q8'],
+            ['q6', 'q7'],
+            ['q11', 'q12'],
+            ['q13', 'q14', 'q15', 'q16'],
+            ['q19', 'q20', 'q21'],
+        ];
+
+        const questionWeights = {
+            'q1': { 'AVAST': 1, '卡巴斯基': 2, 'ESET': -2 },
+            'q2': { 'ESET': 2, 'AVAST': 1, '卡巴斯基': -1 },
+            'q3': { '卡巴斯基': 2, 'AVAST': 1, 'ESET': -2 },
+            'q4': { 'ESET': 2, 'AVAST': -1 },
+            'q5': { '卡巴斯基': 2, 'AVAST': -1, 'ESET': -2 },
+            'q6': { 'ESET': 2 },
+            'q7': { '卡巴斯基': 2, 'AVAST': 2, 'ESET': -1 },
+            'q8': { 'ESET': 2, '360': -2, '卡巴斯基': -2, 'AVAST': -1 },
+            'q9': { 'AVAST': 2 },
+            'q10': { 'ESET': -2, 'AVAST': -2 },
+            'q11': { 'AVAST': 1, '360': 1 },
+            'q12': { 'ESET': 2, '卡巴斯基': 1 },
+            'q13': { 'AVAST': 2, '360': 2, '卡巴斯基': 1, 'ESET': 1 },
+            'q14': { '卡巴斯基': 2, 'ESET': 1 },
+            'q15': { '卡巴斯基': 2, 'AVAST': -2, '360': -1 },
+            'q16': { '卡巴斯基': 2, 'ESET': 2, 'AVAST': 1 },
+            'q17': { '360': 3 },
+            'q18': { '360': 'exclude' },
+            'q19': { '卡巴斯基': 1 },
+            'q20': { 'AVAST': 1 },
+            'q21': { '360': 1 },
+            'q22': { 'AVAST': 'exclude' },
+            'q23': { 'AVAST': 2, '360': 2, '卡巴斯基': -2, 'ESET': -2 },
+            'q24': { 'ESET': 'exclude' },
+            'q25': { 'AVAST': -2 }
+        };
+
+        document.querySelectorAll('input[type="radio"]').forEach(radio => {
+            radio.addEventListener('change', function () {
+                const questionName = this.name;
+                const value = this.value;
+
+                mutuallyExclusiveGroups.forEach(group => {
+                    if (group.includes(questionName)) {
+                        if (value === 'yes') {
+                            group.forEach(q => {
+                                if (q !== questionName) {
+                                    document.querySelector(`input[name="${q}"][value="no"]`).checked = true;
+                                }
+                            });
+                        }
+                    }
+                });
+            });
+        });
+
+        document.getElementById('questionnaireForm').addEventListener('submit', function (e) {
+            e.preventDefault();
+            const formData = new FormData(this);
+
+            for (let antivirus in antivirusScores) {
+                antivirusScores[antivirus] = 0;
+            }
+
+            for (let [key, value] of formData.entries()) {
+                if (value === 'yes') {
+                    const weights = questionWeights[key];
+                    for (let antivirus in weights) {
+                        if (weights[antivirus] === 'exclude') {
+                            delete antivirusScores[antivirus];
+                        } else {
+                            antivirusScores[antivirus] += weights[antivirus];
+                        }
+                    }
+                }
+            }
+
+            let maxScore = -Infinity;
+            let recommendedAntivirus = '';
+            for (let antivirus in antivirusScores) {
+                if (antivirusScores[antivirus] > maxScore) {
+                    maxScore = antivirusScores[antivirus];
+                    recommendedAntivirus = antivirus;
+                }
+            }
+
+            document.getElementById('result').innerHTML = `根据需求，推荐使用 ${recommendedAntivirus}`;
+        });
+    </script>
+</body>
+
+</html>

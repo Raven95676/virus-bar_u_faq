@@ -39,6 +39,20 @@ icon: fas fa-users
 
 ```component VPCard
 {
+  "title": "滑稽的GD",
+  "background": "rgba(255, 255, 250, 0.15)"
+}
+```
+
+```component VPCard
+{
+  "title": "Loyisa",
+  "background": "rgba(255, 255, 250, 0.15)"
+}
+```
+
+```component VPCard
+{
   "title": "无昵称",
   "background": "rgba(255, 255, 250, 0.15)"
 }
