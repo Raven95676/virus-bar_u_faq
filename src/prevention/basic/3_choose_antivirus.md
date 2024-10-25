@@ -1,5 +1,5 @@
 ---
-title: 关于杀毒软件的选择：360、卡巴与Avast
+title: 关于杀毒软件的选择(旧)
 author: Raven95676
 date: 2024-07-29
 icon: fas fa-file
