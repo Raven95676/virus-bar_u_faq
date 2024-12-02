@@ -47,6 +47,12 @@ irm https://massgrave.dev/get | iex
 
 ### Windows 转版本
 
+> [!caution]
+> 来自四海一叶秋、littlepear404
+> 家庭中文版转成其他任意版本均会导致win+x无法打开。
+> 原因是家庭中文版skus目录只有这个CoreCountrySpecific文件夹，转换版本后也是。
+> 所以家庭中文版转成其他版本时需要从原版镜像复制其余文件夹来补齐skus文件夹。
+
 首先，通过管理员权限终端执行：
 
 ```shell
