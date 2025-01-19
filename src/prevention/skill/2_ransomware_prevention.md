@@ -159,6 +159,8 @@ OneDrive 免费提供 5G 存储空间，免费 5G，购买 Microsoft 365 之后�
 
 > [!caution]
 > 由于百度网盘存在文件和谐和隐私泄露的风险，请务必在上传前将文件压缩、加密，或者使用[VeraCrypt](https://www.veracrypt.fr/code/VeraCrypt/)进行保护。
+>
+> VeraCrypt相关介绍：[一键跳转](https://www.bilibili.com/video/BV1WG4y1T7hc)
 
 百度网盘提供 200G 免费存储免费 200G，购买售价 263/年（连续包年）的网盘会员后可升级为 5T。
 
